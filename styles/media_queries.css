@@ -1,0 +1,152 @@
+@media (max-width: 1040px) {
+    .uberLogo .wordUber {
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+
+    .uberLogo .wordEats {
+        font-size: 16px;
+        letter-spacing: 3px;
+        margin-left: 4px;
+    }
+
+    .headerContent form input:last-child {
+        width: 200px;
+    }
+
+    .signIn_Register {
+        width: 200px;
+    }
+}
+
+@media (max-width: 890px) {
+    .headerContent {
+        width: 96%;
+    }
+
+    .mainContent {
+        width: 96%;
+    }
+
+    .listAllRestaurants a {
+        width: 49%;
+    }
+
+    .footerContent {
+        width: 96%;
+    }
+}
+
+@media (max-width: 655px) {
+    .desktopAndTabletForm {
+        display: none;
+    }
+
+    .signIn_Register img {
+        display: none;
+    }
+
+    .signIn_Register {
+        width: 180px;
+    }
+
+    .mobileForm {
+        width: 290px;
+        margin: 20px 0 0;
+        display: flex;
+        justify-content: space-between;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px;
+        color: #626262;
+    }
+
+    .inputAsap {
+        width: 23%;
+    }
+
+    .inputStreat {
+        width: 72%;
+    }
+
+    .inputAsap input {
+        margin-top: 10px;
+        width: 45px;
+        padding: 8px 12px;
+    }
+
+    .inputStreat input {
+        width: 100%;
+        margin-top: 10px;
+        box-sizing: border-box;
+        padding: 8px 0 8px 35px;
+    }
+
+    .mobileForm img {
+        top: 33px;
+        left: 90px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .mobileForm {
+        width: 280px;
+    }
+
+    .listAllRestaurants a {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 50px 0 10px;
+    }
+
+    .footerContent {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .footerBasicContent {
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+
+    .footerBasicContent div {
+        flex: 1 1 100%;
+    }
+
+    .languageAndLinks {
+        margin-bottom: 22px;
+    }
+
+    .download {
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .downloadApp {
+        width: 250px;
+        display: flex;
+    }
+
+    .downloadApp img {
+        width: 110px;
+        height: 35px;
+    }
+
+    .footerBottom {
+        flex-wrap: wrap;
+    }
+
+    .footerBottom span {
+        flex: 1 1 100%;
+        margin-bottom: 30px;
+    }
+
+    .scrollToTop {
+        padding: 17px 24px;
+    }
+}
