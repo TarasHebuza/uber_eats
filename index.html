@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/media_queries.css">
+</head>
+
+<body>
+    <header>
+        <div class="headerContent">
+            <div class="uberLogo">
+                <a href="#"><span class="wordUber">uber</span><span class="wordEats">eats</span></a>
+            </div>
+            <!-- form for desktopa and tablet -->
+            <form class="addressForm desktopAndTabletForm" action="#" method="get">
+                <input type="text" value="ASAP">
+                <span>to</span>
+                <img src="images/iconMap.svg" alt="">
+                <input type="text" value="ul. Tarasivska St, 16">
+            </form>
+            <!--  -->
+            <div class="signIn_Register">
+                <button>Sign In</button>
+                <button class="register">Register</button>
+                <img src="images/basket.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <!-- main container start -->
+    <main id="mainContainer">
+        <div class="mainContent">
+            <!-- search for restauran start-->
+            <form action="#" method="get" class="searchRestauran">
+                <img src="images/search.svg" alt="magnifying glass">
+                <input type="search" name="" placeholder="Search for restauran">
+            </form>
+            <!-- search for restauran end -->
+            <!-- form for mobile -->
+            <form class="addressForm mobileForm" action="#" method="get">
+                <div class="inputAsap">When
+                    <input type="text" value="ASAP">
+                </div>
+                <div class="inputStreat">To
+                    <img src="images/iconMap.svg" alt="">
+                    <input type="text" value="ul. Tarasivska St, 16">
+                </div>
+            </form>
+            <!--  -->
+            <div class="wrapperKyivRestaurants">
+                <h1>Kyiv Restaurants</h1>
+                <div class="listAllRestaurants">
+                    <a href="#">
+                        <article class="restaurant">
+                            <img src="images/mcDonald's.jpg" alt="">
+                            <h2 class="restaurantName">Макдоналдс</h2>
+                            <span class="menu">₴₴ • Бургеры</span>
+                            <span class="time">25 - 35 Min</span>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="restaurant">
+                            <img src="images/wokweiFirst.jpg" alt="">
+                            <h2 class="restaurantName">WOKWEI</h2>
+                            <span class="menu">₴₴ • Китайська • Азіатська</span>
+                            <span class="time">40 - 50 Min</span>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="restaurant">
+                            <img src="images/yizha.jpg" alt="">
+                            <h2 class="restaurantName">YIZHA</h2>
+                            <span class="menu">₴₴ • Американська • Бургери • Вулична їжа</span>
+                            <span class="time">35 - 45 Min</span>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="restaurant">
+                            <img src="images/yizha.jpg" alt="">
+                            <h2 class="restaurantName">Musafir(вул. Саксаганського)</h2>
+                            <span class="menu">₴₴ • Близькосхідна</span>
+                            <span class="time">30 - 40 Min</span>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="restaurant">
+                            <img src="images/wokweiSecond.jpg" alt="">
+                            <h2 class="restaurantName">WOKWEI</h2>
+                            <span class="menu">₴₴ • Китайська • Азіатська</span>
+                            <span class="time">40 - 50 Min</span>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="restaurant">
+                            <img src="images/MilkBar.jpg" alt="">
+                            <h2 class="restaurantName">Milk Bar</h2>
+                            <span class="menu">₴₴ • Десерти • Європейська</span>
+                            <span class="time">25 - 35 Min</span>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="restaurant">
+                            <img src="images/mimosaBrooklynPizza.jpg" alt="">
+                            <h2 class="restaurantName">Mimosa Brooklyn Pizza</h2>
+                            <span class="menu">₴₴ • Італійська • Піца • Американська</span>
+                            <span class="time">15 - 25 Min</span>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="restaurant">
+                            <img src="images/toBe.jpg" alt="">
+                            <h2 class="restaurantName">To Be</h2>
+                            <span class="menu">₴₴ • Японська • Азіатська • Суші</span>
+                            <span class="time">25 - 35 Min</span>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="restaurant">
+                            <img src="images/druziCafe.jpg" alt="">
+                            <h2 class="restaurantName">Druzi Cafe(вул. Прорізна)</h2>
+                            <span class="menu">₴₴ • Американська • Сучасна європейська</span>
+                            <span class="time">30 - 40 Min</span>
+                        </article>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer start -->
+    <footer>
+        <div class="footerContent">
+            <div class="uberLogo footerLogo">
+                <a href="#"><span class="wordUber">uber</span><span class="wordEats">eats</span></a>
+            </div>
+            <div class="footerBasicContent">
+                <div class="languageAndLinks">
+                    <form action="#" method="get">
+                        <img class="world" src="images/world.svg" alt="">
+                        <img class="arrow" src="images/arrow.svg" alt="">
+                        <select class="selectLanguage" name="language">
+                            <option value="english">ENGLISH</option>
+                            <option value="ukrainian">UKRAINIAN</option>
+                            <option value="german">GERMAN</option>
+                        </select>
+                    </form>
+                    <div class="UberEatsLink">
+                        <a href="#">
+                            <span>#</span>UberEats
+                        </a>
+                    </div>
+                    <div class="socialNetwork">
+                        <a href="#">
+                            <img src="images/facebook.svg" class="facebook" alt="facebook">
+                        </a>
+                        <a href="#">
+                            <img src="images/twitter.svg" class="twitter" alt="twitter">
+                        </a>
+                        <a href="#">
+                            <img src="images/instagram.svg" class="instagram" alt="instagram">
+                        </a>
+                    </div>
+                </div>
+                <div class="partners">
+                    <ul class="list">
+                        <li><a href="#">About UberEats</a></li>
+                        <li><a href="#">Become a Delivery Partner</a></li>
+                        <li><a href="#">Become a Restaurant Partner</a></li>
+                    </ul>
+                </div>
+                <div class="additionalNav">
+                    <ul class="list">
+                        <li><a href="#">See all cities</a></li>
+                        <li> <a href="#">Pricing</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="download">
+                <div class="downloadApp">
+                    <img src="images/downloadAppStore.png" alt="">
+                    <img src="images/downloadGooglePlay.png" alt="">
+                </div>
+            </div>
+            <div class="footerBottom">
+                <span>© 2017 Uber Technologies Inc</span>
+                <span>Privacy</span>
+                <span>Terms</span>
+            </div>
+        </div>
+        <a href="#mainContainer" class="scrollToTop">
+            <img src="images/arrowToTop.svg" alt="">
+        </a>
+    </footer>
+</body>
+
+</html>
